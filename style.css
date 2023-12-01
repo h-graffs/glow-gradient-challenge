@@ -1,0 +1,68 @@
+.body {
+	background-color: black;
+}	
+
+.dashboard {
+	width: 40%;
+	text-align: center;
+	margin-left: 50px;
+}
+
+.profile {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	border-radius: 20px;
+	text-align: center;
+	margin-top: 60px;
+	background-color: black;
+	box-shadow: 0 0 40px 30px #FFF, 0 0 30px 40px #C0C, 0px 0px 50px 50px #0FF;
+	font-size: 3rem;
+	margin-bottom: 100px;
+}
+
+#header1 {
+	font-family: Rubik;
+	font-size: 1em;
+	margin-top: 20px;
+  color: #FFF;
+}
+
+#p1 {
+	font-family: verdana;	
+	font-size: 0.5em;
+	margin-top: -20px;
+	color: #CC00FF;
+}
+
+.btn {
+	width: 50%;
+	height: 3vh;
+	border: none;
+  background-color: white;
+	box-shadow: 0 0 10px 10px #FFF, 0 0 10px 10px #C0C, 0px 0px 10px 10px #0FF;	
+	font-family: Rubik;
+}
+
+.font {
+	font-family: verdana;
+}
+
+.schedule-table {
+	width: 100%;
+	background-color: green;
+	
+}
+
+.center {
+	margin: auto auto;
+}
+
+.styling {
+	background-color: white;
+	box-shadow: 0 0 10px 10px #FFF, 0 0 10px 10px #C0C, 0px 0px 10px 10px #0FF;	
+	width: 100%;
+}
+
+
+
