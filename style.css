@@ -1,6 +1,6 @@
 .body {
 	display: flex;
-	flex direction: inline;
+	flex-direction: inline;
 	background-color: black;
 }	
 
@@ -56,13 +56,18 @@
 .btn {
 	width: 50%;
 	height: auto;
-	border: 5px solid #C0C;
+	border: 5px solid #FFF;
 	border-radius: 10px;
   background-color: black;
 	box-shadow: 0 0 10px 10px #FFF, 0 0 15px 15px #C0C, 0px 0px 10px 20px #0FF;;	
 	font-family: Rubik;
 	font-size: 1em;
-	color: white;
+	color: #0FF;
+}
+
+button:hover {
+	border: 5px solid #C0C;
+	cursor: pointer;
 }
 
 .font {
@@ -70,9 +75,7 @@
 }
 
 .schedule-table {
-	width: 100%;
-	background-color: green;
-	
+	width: 100%;	
 }
 
 .center {
@@ -80,9 +83,14 @@
 }
 
 .styling {
-	background-color: white;
-	box-shadow: 0 0 10px 10px #FFF, 0 0 10px 10px #C0C, 0px 0px 10px 10px #0FF;	
+	background-color: #000;	
 	width: 100%;
+	border: 10px double #C0C;
+	border-color: transparent #C0C transparent;
+	border-radius: 30px;
+	color: white;
+	margin-bottom: 50px;
+	margin-top: 30px;
 }
 
 .glow-ball-div {
