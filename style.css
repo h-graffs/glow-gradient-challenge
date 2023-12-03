@@ -2,6 +2,7 @@
 	display: flex;
 	flex-direction: inline;
 	background-color: black;
+	justify-content: center;
 }	
 
 .dashboard {
@@ -13,8 +14,7 @@
 .profile {
 	display: flex;
 	flex-direction: column;
-	<!--taking margin auto away corrects the intial size of header -->
-	width: 40%;
+	width: auto;
 	margin: auto auto;
 	border-radius: 20px;
 	text-align: center;
@@ -22,7 +22,7 @@
 	background-color: black;
 	box-shadow: 0 0 40px 30px #FFF, 0 0 30px 40px #C0C, 0px 0px 50px 50px #0FF;
 	font-size: 3em;
-	margin-bottom: 100px;
+	margin-bottom: 80px;
   transform: scale(.75);
   animation: ScaleUp 4s;
 }
@@ -94,14 +94,14 @@ button:hover {
 }
 
 .glow-ball-div {
-	margin-left: 100px;
-	margin-top: 10px;
+	display: flex;
+	justify-content: center;
 }
 
 .div-to-rotate-glow-ball {
 	width: 75px;
 	height: 75px;
-	border: 5px solid #CC00FF;
+	border: 5px solid #000;
 	border-radius: 50%;
 }
 
@@ -112,6 +112,60 @@ button:hover {
 	margin: auto auto;
 	border-radius: 50%;
 	box-shadow: 0 0 10px 10px #FFF, 0 0 15px 15px #C0C, 0px 0px 10px 20px #0FF;
+}
+
+.glow-ball1 {
+	transform: scale(.75);
+  animation: ballGlow1 2s;
+	animation-delay: 3s;
+}
+
+@keyframes ballGlow1 {
+  0%, {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(.75);
+  }
+	75% {
+		transform: scale(1);
+	}	
+}
+
+.glow-ball2 {
+	transform: scale(.75);
+  animation: ballGlow2 2s;
+	animation-delay: 3.5s;
+}
+
+@keyframes ballGlow2 {
+  0%, {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(.75);
+  }
+	75% {
+		transform: scale(1);
+	}	
+}
+
+.glow-ball3 {
+	transform: scale(.75);
+  animation: ballGlow3 2s;
+	animation-delay: 4s;
+}
+
+@keyframes ballGlow3 {
+  0%, {
+    transform: scale(0);
+  }
+  50%, 100% {
+    transform: scale(.75);
+  }
+	75% {
+		transform: scale(1);
+	}	
 }
 
 
